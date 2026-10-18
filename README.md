@@ -36,8 +36,8 @@ An interactive, modular Hangman game where the player guesses a hidden word lett
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/python-internship-tasks.git
-cd python-internship-tasks/task1-hangman
+git clone https://github.com/Dharshini-S-1511/Datheon_Python_Programming_Internship.git
+cd Datheon_Python_Programming_Internship/task1-hangman
 ```
 
 ### How to run
