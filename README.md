@@ -96,4 +96,4 @@ The GUI version uses a `HangmanGUI` class. It draws the hangman on a `Canvas`, s
 
 **Dharshini**
 Computer Science student
-GitHub: [YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+GitHub: [Dharshini-S-1511](https://github.com/Dharshini-S-1511)
