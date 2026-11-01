@@ -1,0 +1,30 @@
+2026-11-01 08:56:55 | INFO    | Organizing: C:\Users\DHARSHINI\Desktop\test_files (dry run)
+2026-11-01 08:56:55 | INFO    | [DRY RUN] backup.zip -> Archives/backup.zip
+2026-11-01 08:56:55 | INFO    | [DRY RUN] clip.mp4 -> Videos/clip.mp4
+2026-11-01 08:56:55 | INFO    | [DRY RUN] data.csv -> Documents/data.csv
+2026-11-01 08:56:55 | INFO    | [DRY RUN] logo.png -> Images/logo.png
+2026-11-01 08:56:55 | INFO    | [DRY RUN] mystery.xyz -> Others/mystery.xyz
+2026-11-01 08:56:55 | INFO    | [DRY RUN] notes.txt -> Documents/notes.txt
+2026-11-01 08:56:55 | INFO    | [DRY RUN] photo.jpg -> Images/photo.jpg
+2026-11-01 08:56:55 | INFO    | [DRY RUN] report.pdf -> Documents/report.pdf
+2026-11-01 08:56:55 | INFO    | [DRY RUN] script.py -> Code/script.py
+2026-11-01 08:56:55 | INFO    | [DRY RUN] song.mp3 -> Audio/song.mp3
+2026-11-01 08:56:55 | INFO    | Summary: {'moved': 10, 'renamed': 0, 'skipped': 0, 'errors': 0}
+2026-11-01 09:02:44 | INFO    | Organizing: C:\Users\DHARSHINI\Desktop\test_files
+2026-11-01 09:02:44 | INFO    | Moved 'backup.zip' -> Archives/
+2026-11-01 09:02:44 | INFO    | Moved 'clip.mp4' -> Videos/
+2026-11-01 09:02:44 | INFO    | Moved 'data.csv' -> Documents/
+2026-11-01 09:02:44 | INFO    | Moved 'logo.png' -> Images/
+2026-11-01 09:02:44 | INFO    | Moved 'mystery.xyz' -> Others/
+2026-11-01 09:02:44 | INFO    | Moved 'notes.txt' -> Documents/
+2026-11-01 09:02:44 | INFO    | Moved 'photo.jpg' -> Images/
+2026-11-01 09:02:44 | INFO    | Moved 'report.pdf' -> Documents/
+2026-11-01 09:02:44 | INFO    | Moved 'script.py' -> Code/
+2026-11-01 09:02:44 | INFO    | Moved 'song.mp3' -> Audio/
+2026-11-01 09:02:44 | INFO    | Summary: {'moved': 10, 'renamed': 0, 'skipped': 0, 'errors': 0}
+2026-11-01 09:07:16 | INFO    | Organizing: C:\Users\DHARSHINI\Desktop\test_files
+2026-11-01 09:07:16 | WARNING | Name collision: 'photo.jpg' -> 'photo (1).jpg'
+2026-11-01 09:07:16 | INFO    | Moved 'photo.jpg' -> Images/
+2026-11-01 09:07:16 | WARNING | Name collision: 'report.pdf' -> 'report (1).pdf'
+2026-11-01 09:07:16 | INFO    | Moved 'report.pdf' -> Documents/
+2026-11-01 09:07:16 | INFO    | Summary: {'moved': 2, 'renamed': 2, 'skipped': 0, 'errors': 0}
