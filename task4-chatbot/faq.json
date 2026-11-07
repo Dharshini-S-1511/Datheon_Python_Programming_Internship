@@ -1,0 +1,74 @@
+{
+  "business": "Datheon Python Programming Internship - support assistant",
+  "intents": [
+    {
+      "name": "greeting",
+      "topic": "",
+      "patterns": ["\\b(hi|hello|hey|hola|good (morning|afternoon|evening))\\b"],
+      "response": "Hello! Welcome to the Datheon Internship Support Assistant. How can I help you today?",
+      "ask_more": false
+    },
+    {
+      "name": "thanks",
+      "topic": "",
+      "patterns": ["\\b(thanks|thank you|thx|cheers)\\b"],
+      "response": "You're welcome! Is there anything else I can help you with?",
+      "ask_more": false
+    },
+    {
+      "name": "help",
+      "topic": "",
+      "patterns": ["\\b(help|what can you do|options|menu|topics)\\b"],
+      "response": "I can answer questions about the internship: operating hours, how to submit your project, certificates, the program duration, the tasks you must complete, GitHub and README requirements, LinkedIn and fees. Just ask!",
+      "ask_more": false
+    },
+    {
+      "name": "program",
+      "topic": "program overview",
+      "patterns": [
+        "\\b(how long|duration|weeks|syllabus)\\b",
+        "\\b(what is|about) (this|the) (program|internship)\\b"
+      ],
+      "response": "The Datheon Python Programming Internship is a 4-week program with 4 hands-on tasks covering core Python, data structures, file handling, automation and API interaction."
+    },
+    {
+      "name": "tasks_required",
+      "topic": "which tasks to complete",
+      "patterns": [
+        "\\b(how many|minimum|which|what are the|list of) tasks?\\b",
+        "\\btasks? (do i|to|should i) (need|complete|finish|do)\\b"
+      ],
+      "response": "Complete at least 2 or 3 of the 4 tasks: Hangman Game, Stock Portfolio Performance Tracker, Automated File Organizer, and the Rule-Based Chatbot."
+    },
+    {
+      "name": "repository",
+      "topic": "GitHub repository and README",
+      "patterns": ["\\b(github|repository|repo|readme|folder structure)\\b"],
+      "response": "Create a public GitHub repository with your source code, a clear folder structure and a brief README.md explaining your project.",
+      "variants": [
+        {
+          "pattern": "\\b(name|named|called)\\b",
+          "response": "The repository must be named Datheon_Python_Programming_Internship and its visibility must be set to Public so evaluators can inspect your commits."
+        }
+      ]
+    },
+    {
+      "name": "linkedin",
+      "topic": "LinkedIn post and recommendation letter",
+      "patterns": ["\\b(linkedin|lor|recommendation|demo post|tag)\\b"],
+      "response": "A LinkedIn post with a screenshot or demo video tagging @Datheon is optional but recommended. It qualifies top performers for a Letter of Recommendation (LOR)."
+    },
+    {
+      "name": "verification",
+      "topic": "certificate verification",
+      "patterns": ["\\b(qr|verif(y|ied|ication)|hash|credential)\\b"],
+      "response": "Your Verified Certificate of Completion carries a QR code and a unique verification hash, so anyone can check that it is genuine."
+    },
+    {
+      "name": "fees",
+      "topic": "fees",
+      "patterns": ["\\b(free|fees?|cost|charges?|pay|price)\\b"],
+      "response": "The program is free to apply for, and there is no evaluation fee."
+    }
+  ]
+}

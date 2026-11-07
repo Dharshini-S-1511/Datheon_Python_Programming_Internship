@@ -8,6 +8,8 @@ A collection of Python projects built as part of the Datheon Python Programming 
 |---|------|--------|--------|
 | 1 | Hangman Word Guessing Game (Console + GUI) | [`task1-hangman`](task1-hangman) | Completed |
 | 2 | Stock Portfolio Performance Tracker | [`task2-portfolio`](task2-portfolio) | Completed |
+| 3 | Automated File Organizer & Cleanup Utility | [`task3-file-organizer`](task3-file-organizer) | Completed |
+| 4 | Rule-Based Interactive Terminal Assistant / Chatbot | [`task4-chatbot`](task4-chatbot) | Completed |
 
 ---
 
@@ -45,7 +47,7 @@ cd Datheon_Python_Programming_Internship/task1-hangman
 Console version:
 
 ```bash
-python hangman.py
+py hangman.py
 ```
 
 GUI version:
@@ -123,7 +125,7 @@ cd Datheon_Python_Programming_Internship/task2-portfolio
 ### How to run
 
 ```bash
-python portfolio.py
+py portfolio.py
 ```
 
 Enter each holding when prompted (ticker, buy price, shares). Type `done` as the ticker to finish and see the report.
@@ -180,3 +182,31 @@ python organizer.py "C:\path\to\folder" --dry-run
 ![Run output](task3-file-organizer/screenshots/run_output.png)
 ![Organized folder](task3-file-organizer/screenshots/organized_folder.png)
 ![Collision handling](task3-file-organizer/screenshots/collision_handling.png)
+
+## Task 4 – Rule-Based Interactive Terminal Assistant / Chatbot
+
+A rule-based support assistant for the Datheon internship. It matches user input against keywords and regular expressions, answers FAQs, and keeps simple conversational context.
+
+### Features
+- Input normalization (lowercase, whitespace and punctuation cleanup) and regex keyword matching
+- Multi-intent matching: several questions in one message get several answers
+- Conversation states: greeting, intent identification, resolution, exit
+- Context memory (user's name, last topic) and follow-ups like "what about the name?"
+- Graceful fallbacks: "did you mean ...?" suggestion, then a topic menu
+- Error handling for empty or long input, Ctrl+C, and missing or invalid JSON files
+- Clean exit with `bye`, `exit` or `quit`
+- Knowledge loaded from JSON: the provided `sample_faq.json` plus extra intents in `faq.json`
+
+### How to run
+py chatbot.py
+
+### Screenshots
+![Greeting and hours](task4-chatbot/screenshots/greeting_and_hours.png)
+![Multi-intent](task4-chatbot/screenshots/multi_intent.png)
+![Fallback and exit](task4-chatbot/screenshots/fallback_and_exit.png)
+
+
+## Author
+
+**Dharshini**
+GitHub: [Dharshini-S-1511](https://github.com/Dharshini-S-1511)
