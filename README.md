@@ -208,5 +208,5 @@ py chatbot.py
 
 ## Author
 
-**Dharshini**
+**Dharshini S**
 GitHub: [Dharshini-S-1511](https://github.com/Dharshini-S-1511)
